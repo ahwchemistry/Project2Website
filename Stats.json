@@ -1,0 +1,219 @@
+[
+    {
+        "age":19,
+        "height":59.899615981039,
+        "name":"Michael Bradshaw",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/michael.bradshaw.jpg",
+        "weight":128.799231962078
+    },
+    {
+        "age":26,
+        "height":66.95605874843345,
+        "name":"Olivia Alford",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/olivia.alford.jpg",
+        "weight":151.9121174968669
+    },
+    {
+        "age":26,
+        "height":58.6144669187079,
+        "name":"Grant Blayney",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/grant.blayney.jpg",
+        "weight":150.2289338374158
+    },
+    {
+        "age":29,
+        "height":62.62009227397139,
+        "name":"Trevor Brewer",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/trevor.brewer.jpg",
+        "weight":141.24018454794276
+    },
+    {
+        "age":29,
+        "height":59.79382718453524,
+        "name":"Alexandra Cody",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/alexandra.cody.jpg",
+        "weight":119.58765436907048
+    },
+    {
+        "age":28,
+        "height":60.23559498288956,
+        "name":"Haoyi Guo",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/haoyi.guo.jpg",
+        "weight":124.47118996577912
+    },
+    {
+        "age":26,
+        "height":72.62069308994501,
+        "name":"Chang He",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/chang.he.jpg",
+        "weight":181.24138617989001
+    },
+    {
+        "age":30,
+        "height":78.98830002228101,
+        "name":"Han He",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/han.he.jpg",
+        "weight":185.97660004456202
+    },
+    {
+        "age":23,
+        "height":58.65417811957532,
+        "name":"Qinpu He",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/qinpu.he.jpg",
+        "weight":153.30835623915064
+    },
+    {
+        "age":22,
+        "height":67.42109209546116,
+        "name":"Minyi Hu",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/minyi.hu.jpg",
+        "weight":134.84218419092232
+    },
+    {
+        "age":18,
+        "height":71.09426303384957,
+        "name":"Forrest Kamperman",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/forrest.kamperman.jpg",
+        "weight":155.18852606769914
+    },
+    {
+        "age":23,
+        "height":64.86925920244568,
+        "name":"Michelle Kim",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/michelle.kim.jpg",
+        "weight":167.73851840489135
+    },
+    {
+        "age":18,
+        "height":73.6160539909224,
+        "name":"Boting Li",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/boting.li.jpg",
+        "weight":204.2321079818448
+    },
+    {
+        "age":25,
+        "height":56.33968202390052,
+        "name":"Yifan Li",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/yifan.li.jpg",
+        "weight":164.67936404780104
+    },
+    {
+        "age":27,
+        "height":71.80431465145142,
+        "name":"Alexander Luken",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/alexander.luken.jpg",
+        "weight":192.60862930290284
+    },
+    {
+        "age":27,
+        "height":77.30478693665872,
+        "name":"Nicholas Miller",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/nicholas.miller.jpg",
+        "weight":167.60957387331743
+    },
+    {
+        "age":22,
+        "height":64.9921989613538,
+        "name":"Nicolas Montejos",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/nicolas.montejos.jpg",
+        "weight":180.9843979227076
+    },
+    {
+        "age":23,
+        "height":72.2284590067171,
+        "name":"Eric Murrell",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/eric.murrell.jpg",
+        "weight":169.4569180134342
+    },
+    {
+        "age":18,
+        "height":64.74187308911361,
+        "name":"Minh_Duc Nguyen",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/minhduc.nguyen.jpg",
+        "weight":136.48374617822722
+    },
+    {
+        "age":28,
+        "height":67.11772162262764,
+        "name":"Ricardo Ortiz",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/ricardo.ortiz.jpg",
+        "weight":157.23544324525528
+    },
+    {
+        "age":20,
+        "height":64.55322534487168,
+        "name":"Dominic Peluso",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/dominic.peluso.jpg",
+        "weight":180.10645068974335
+    },
+    {
+        "age":21,
+        "height":55.55419716628988,
+        "name":"Jeffrey Podis",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/jeffrey.podis.jpg",
+        "weight":161.10839433257976
+    },
+    {
+        "age":19,
+        "height":71.92131382129614,
+        "name":"Bingxu Ren",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/bingxu.ren.jpg",
+        "weight":155.84262764259228
+    },
+    {
+        "age":29,
+        "height":70.40267746120293,
+        "name":"Corey Rusko",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/corey.rusko.jpg",
+        "weight":171.80535492240585
+    },
+    {
+        "age":21,
+        "height":57.432828072856786,
+        "name":"Alan Secor",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/alan.secor.jpg",
+        "weight":150.86565614571356
+    },
+    {
+        "age":19,
+        "height":70.19593534523128,
+        "name":"Kyle Settles",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/kyle.settles.jpg",
+        "weight":146.39187069046255
+    },
+    {
+        "age":20,
+        "height":64.62638495665611,
+        "name":"Ye Sheng",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/ye.sheng.jpg",
+        "weight":185.25276991331222
+    },
+    {
+        "age":29,
+        "height":58.54663157896236,
+        "name":"Peter Shirley",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/peter.shirley.jpg",
+        "weight":119.09326315792472
+    },
+    {
+        "age":23,
+        "height":72.2468915425625,
+        "name":"Issifu Suhununu",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/issifu.suhununu.jpg",
+        "weight":186.493783085125
+    },
+    {
+        "age":22,
+        "height":64.42787931016133,
+        "name":"Benjamin Wells",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/benjamin.wells.jpg",
+        "weight":142.85575862032266
+    },
+    {
+        "age":22,
+        "height":79.37008985624277,
+        "name":"Alexander Williams",
+        "picture":"http://turing.centre.edu/~michael.bradshaw/IDV/vizCourseData/alexander.williams.jpg",
+        "weight":201.74017971248554
+    }
+]

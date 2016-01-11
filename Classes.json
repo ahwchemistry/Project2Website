@@ -1,0 +1,35 @@
+[
+  {
+    "RequirementName" : "Humanities",
+    "RequiredCredits" : 6,
+    "classes" : [
+      {
+        "classname" : "Humanities 110",
+        "availability" : "Fall",
+        "Hours" : 3
+      },
+      {
+        "classname" : "Humanities 120",
+        "availability" : "Spring",
+        "Hours" : 3
+      }
+    ]
+  },
+  {
+    "RequirementName" : "Math",
+    "RequiredCredits" : 3,
+    "classes" : [
+      {
+        "classname" : "MAT110",
+        "availability" : "Fall",
+        "Hours" : "3"
+      },
+      {
+        "classname" : "MAT171",
+        "availability" : "Spring",
+        "Hours" : 3
+      }
+    ]
+  }
+]
+    
