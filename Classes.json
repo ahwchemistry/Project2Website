@@ -1,35 +1,477 @@
 [
-  {
-    "RequirementName" : "Humanities",
-    "RequiredCredits" : 6,
-    "classes" : [
+    {"requirement":"FYS",
+     "courses":[
+        {
+        "id":"FYS 123",
+        "name":"Cultural Evolution Japanese Film",
+        "when":["Winter"],
+        "description":"This course will provide a survey of Japans rich cinematic history, with viewings from the Golden Age of Japanese cinema by directors such as Mizoguchi, Kurosawa, and Ozu, and will compare their work with the work of modern directors whose films have gone on to international acclaim such as Juzo Itami, Hayao Miyazaki, Hirokazu Koreeda, and Takeshi Kitano."
+    },
+        {
+        "id":"FYS 122",
+        "name":"English Civil Wars",
+        "when":["Winter"],
+        "description":"This course explores the causes, the course of, and the impacts and the English Civil Wars. These wars led to some of the most important political, social, and economic developments in English history-developments which would have world wide implications."
+    },
+        {
+        "id":"FYS 120",
+        "name":"Sports Psychology",
+        "when":["Winter"],
+        "description":"This course takes a psychological approach towards sports and athletic endeavors. We begin with an exploration of the 'mind-body' connection, then emphasize how thoughts influence physical performance and how physical states influence mental abilities. Topics include sport-related motivation, competition, social interactions and teamwork. The course also explores the area of 'peak performance,' which focuses on the synergistic relationship between mind and body."
+    },
+        {
+        "id":"FYS 115",
+        "name":"Ethics/Art of Violent Spectacles",
+        "when":["Winter"],
+        "description":"From the gladiators in the colosseum to the superstars of todays NFL, diverse societies have shared a fascination and passion for public displays of individual struggle and suffering. Do such communal spectacles of violence reflect and entrench a depravity inherent in the human condition, or do they provide a catharsis that purges us of our basest instincts and allows civilization itself to flourish? What ethical problems - concerning free will, justice, class, gender, exploitation, and more - confront spectators and participants alike?"
+    },
+        {
+        "id":"FYS 114",
+        "name":"Big History: The Universe and Us",
+        "when":["Winter"],
+        "description":"This course binds together human history, natural history, and environmental geography to form a narrative of the universe and humankind's place in it. It will take you on an immense journey through time, from the origin of the universe, to possible futures of our planet and our species, and show you how deeply interconnected many disciplines are."
+    },
+        {
+        "id":"FYS 112",
+        "name":"How Stuff Works: Technology Around Us",
+        "when":["Winter"],
+        "description":"A study of the technology in our everyday lives and the scientific principles that govern it. We will examine real objects from basketballs to makeup to MP3 players and learn how their operation can be understood in terms of basic scientific principles. The course starts with motion, fluids and heat and then moves to electrical and optical devices. The final week includes a discussion of the science of sports with particular emphasis on football, basketball and NASCAR."
+    },
+        {
+        "id":"FYS 103",
+        "name":"Music and Social Resistence",
+        "when":["Winter"],
+        "description":"Music has played an integral role in the social functioning of humanity since the dawn of time. Through musical customs, occasions were celebrated, myths, legends and historical facts related and remembered, and religious identities expressed. More recently music has been a catalyst and sounding board for disgruntled peoples to express their concerns and ideals for change in political and social arenas. Music can also play conflicting roles, uplifting some while oppressing others. This course investigates the social function of music, the utilizing of said function for political gain, and the central concepts of non-violent resistance and social justice in the socio-political non-violent movements of the past fifty years (South Africa, Ireland, the Baltic States, and more recently Hong Kong, Russia and the USA) and in the output of contemporary pop artists such as Kanye West, Miley Cyrus, Taylor Swift, Nicky Minaj, Robin Thicke, Pussy Riot, Toby Keith, The Dixie Chicks, Green Day and Raury. After the completion of this course, students will be able to better understand, discuss and write about music and central issues of social justice that influence daily life and the ways in which this is reflected in the pop culture and hashtag-activism that characterize daily life in contemporary society."
+    },
+    {
+        "id":"FYS 104",
+        "name":"Molec Modernism: Monet-Mondrian",
+        "when":["Winter"],
+        "description":"Science and art are intricately related. This course will actively explore the interfaces of science, art history and studio art. The course will focus on the progression of painting from the 1860s to the 1950s, including Realism, Impressionism, Neo-Impressionism, Fauvism, Cubism, Geometric Abstraction, de Stijl, Abstract Expressionism, and Color Field painting. The role of science and technology in this progression (including synthesis of new materials and how color theory informed painting) will be discussed. Scientific topics include light and its interaction with matter, color mixing, chemical and physical causes of color, and the biology of vision; these topics are discussed to gain a deeper understanding of paintings. Analytical techniques used in conservation science and forgery investigations will be discussed. Laboratory/studio activities will be performed where students synthesize and analyze materials, including pigments and binders. Students will have the opportunity to use the materials to make a painting. The extended time block is reserved for laboratory/studio activities and will not be utilized every day. A 4-night trip to Indianapolis and Chicago to visit the conservation science laboratories, conservation studios, and art galleries at the Indianapolis Museum of Art and the Art Institute of Chicago is planned."
+    },
+        {
+        "id":"FYS 105",
+        "name":"Meditation, Technology, Activism",
+        "when":["Winter"],
+        "description":"This class will explore the social implications of Google, cell phones, Facebook, email, blogging, Twitter, Youtube, video games, Instagram, Netflix and other technological innovations. As a counterpoint to studying these digital technologies, we will practice mindfulness meditation as we evaluate our interactions with technology, politics, and the world. We will apply a variety of contemplative practices  such as meditation, free writing, and art -- to our daily lives. We will investigate the role of technology in supporting what is most meaningful to us as human beings. We will learn how others have used mindfulness in pursuing social activism as they imagined new possibilities for ourselves and our communities, and we examine how we might use mindfulness to make positive social and political change in a digital world."
+    },  
+	{
+    	"id": "FYS 147",
+    	"name": "The Spanish Civil War",
+    	"when": ["Winter"],
+    	"description": "This course will examine the origins and consequences of the Spanish Civil War (1936-1939) leading to the understanding of contemporary Spain. Taking a historical approach, the course will be interdisciplinary in nature, using American and Spanish films, documentaries, literature, history, music and art to illustrate the key issues generated by the conflict. Furthermore, the course will address the international context that impinged upon Spain at the time of the civil war, such as the roles of Hitler, Mussolini, and Stalin; attention will also be given to the international volunteers that fought in the war, including the Abraham Lincoln Brigade from the United States. We will also explore the long-term effects of the war and Francoism in Spain. In that light, the course will conclude with a discussion of the complexities of the war, of remembrance and retribution, particularly as Spain grapples with the interpretation and representation of the war to a generation composed largely of the offspring and/or grandchildren of those who lived through the bloody conflict and its often tragic consequences."
+	},
+	{
+    	"id": "FYS 158",
+    	"name": "The Chemistry of Food",
+    	"when": ["Winter"],
+    	"description": "You need to eat! But, why are some foods better than others? We will explore food as chemists. How do individual food components contribute to the quality of food? What chemical changes take place when a food is treated with acid or heated? Finally, we will enjoy the benefits of our experiments."
+	},
+	{
+    	"id": "FYS 167",
+    	"name": "Introduction to Drawing",
+    	"when": ["Winter"],
+    	"description": "This course introduce the fundamentals of drawing, including perspective, light and shade, expressive use of various media, and the principles of design. Studio work is complemented by written and oral assignments that teach students how to discuss and criticize drawings. Lectures, a museum visit, and student copies made from masterworks will familiarize students with the cultural contributions made in this medium since the Renaissance."
+	},
+	{
+    	"id": "FYS 183",
+    	"name": "Issues in Economics",
+    	"when": ["Winter"],
+    	"description": "This course involves an introduction and discussion of current controversial economic issues. Fundamental trade-offs between efficiency, equity, and stability will be considered. Topics include taxes, law, energy, the environment, housing, health care, drugs, discrimination, poverty, deficits, education, and international trade."
+	},
+	{
+    	"id": "FYS 186",
+    	"name": "Sustainable Cities",
+    	"when": ["Winter"],
+    	"description": "Cities are both a source of tremendous environmental innovation and problem-solving, and of resource destruction and pollution. Through the use of case studies, discussion, field research, and urban design workshops, this course will investigate the environmental challenges and opportunities facing cities today. Particular emphasis will be placed on analyzing the conflicts that arise from trying to balance economic considerations, social responsibility, and environmental protection, as well as analyzing models for achieving urban sustainability."
+	},
+	{
+    	"id": "FYS 190",
+    	"name": "Adventures in Game Creation",
+    	"when": ["Winter"],
+    	"description": "Introduction to Java programming through the medium of writing arcade style games. Topics will include an introduction to object oriented programming, selection, repetition, and function definition in the context of writing interactive, graphical programs. The course will include discussion of the impact of computer games on society. No previous experience in programming is required."
+	},
+	{
+    	"id": "FYS 196",
+    	"name": "Monitoring Earth From Space",
+    	"when": ["Winter"],
+    	"description": "Space-borne sensor platforms including NASAs Landsat series of satellites have been acquiring images of the earths surface since the early 1970s. The result is a matchless record of planetary environmental change over the last forty years. In this course, students learn to view, analyze, manipulate, classify, and evaluate these complex image data. For their final project, they produce verifiable land cover classifications from multiple images to compare in the quantitative assessment of environmental change over time."
+	},
+	{
+    	"id": "FYS 197",
+    	"name": "Gender and Education",
+    	"when": ["Winter"],
+    	"description": "In this course, we will examine the relationship between gender and education, primarily in the United States and countries of the Global South. The key question that guides this class is: What are the limits and possibilities of education as a tool for promoting gender equality? Utilizing empirical research, literature, films, community involvement, and theory, we will look critically at statistics and delve into diverse educational stories from around the world. As one of the primary arenas in which social and political goals are determined, shared, and challenged, education represents an ideal setting for exploring questions about gender roles, norms, and equality."
+	},
+    {
+        "id":"FYS 128",
+        "name":"Russia Since the Cold War",
+        "when":["Winter"],
+        "description":"In 1991, the Soviet Union, our great Cold War adversary, collapsed. Since that time, Russia has had a very difficult time making the (unprecedented) transition from a command to a market economy, and from totalitarian controls to a free and open society. This class will examine that transition, its successes and failures, with emphasis on the contemporary problems that Russians face: among them, a flagging petrostate economy; ongoing population decline; environmental degradation; and increasing political and social repression. Well also look at Vladimir Putins foreign policy objectives, particularly in Ukraine and the Middle East, and the problems that beset Russias relations with the United States and China."
+    },    
+    {
+        "id":"FYS 132",
+        "name":"The Voice of Poetry",
+        "when":["Winter"],
+        "description":"A study of the essential dimensions of poetry, including analysis, performance, and composition, as well as its role in community, education, and memory."
+    },
+    {
+        "id":"FYS 133",
+        "name":"The History of American Holidays",
+        "when":["Winter"],
+        "description":"Americas calendar is filled with holidays which range from national events such as the Fourth of July to religious occasions such as Christmas to ethnic celebrations such as St. Patricks Day. This course will examine the historical development of the American calendar and investigate ways of understanding these ritual events. We will explore why some holidays gain importance while others fade away and why holidays are frequently sites of conflict."
+    },        
+    {
+        "id":"FYS 135",
+        "name":"Lab Research in Microbiology",
+        "when":["Winter"],
+        "description":"Bacteriophages are viruses that infect bacteria. Bacteriophages and their bacterial hosts are key players in human health and disease: bacteriophages are used in therapeutic treatments of bacterial infections that have resisted antibiotics, and an estimated 9 million people contracted the bacterial disease tuberculosis in 2013. In this course, students will contribute valuable data to the scientific community by discovering, isolating and characterizing bacteriophages previously unknown to science. Students will collect soil samples from the environment, isolate bacteriophages (bacterial viruses) from the soil, obtain a pure population of these bacteriophages, and visualize the bacteriophages via electron microscopy. Students will obtain an introduction to investigative laboratory research, and will master several techniques that are commonly used in microbiology and molecular genetics. Students will also examine the impact of bacteriophages and bacteria on human health, society, and history."
+    },
+    {
+        "id":"FYS 136",
+        "name":"Rainmaking: The Study of and Preparation for Leadership",
+        "when":["Winter"],
+        "description":"This course will acquaint the student with the literature associated with leadership studies. The student will be exposed to a variety of authors, and have the opportunity to study and report on a 20th-Century leader of his or her choice. The class will feature several guest speakers (leaders in practice) from a variety of fields, and may include one field trip to explore the work of a leader in his or her workplace."
+    },        
+    {
+        "id":"FYS 136",
+        "name":"Rainmaking: The Study of and Preparation for Leadership",
+        "when":["Winter"],
+        "description":"This course will acquaint the student with the literature associated with leadership studies. The student will be exposed to a variety of authors, and have the opportunity to study and report on a 20th-Century leader of his or her choice. The class will feature several guest speakers (leaders in practice) from a variety of fields, and may include one field trip to explore the work of a leader in his or her workplace."
+    },    
+    {
+        "id":"FYS 137",
+        "name":"News/Information in Digital Age",
+        "when":["Winter"],
+        "description":"Our digital and increasingly mobile society has disrupted the world we knew even five years ago, shaking to the core traditional forms of news and information so much so that BuzzFeed is seen by some as more important and valuable than a media goliath like the New York Times. In the midst of these shifting landscapes, how is a global citizen best informed about, interact with, and influence his or her world?"
+    },    
+   {
+        "id":"FYS 143",
+        "name":"The Meaning of Life",
+        "when":["Winter"],
+        "description":"Who are you? Why are you here? What does it all mean and what should you do? This course will explore the nature of human existence through art, music, literature, film and philosophy. Starting with ancient questions and answers about what it is to be a human being, we will consider various conceptions of existence and its implications for what we ought to do from writers like Dostoyevsky, Kafka, Camus and Kundera, philosophers Aristotle, Kierkegaard, Nietzsche, and Sartre, and answers from artists like Banksy, Wes Anderson and others. Ultimately, we will determine what it means to be what we are."
+    },      
+    {
+        "id":"FYS 143",
+        "name":"Young Adult Dystopian Literature",
+        "when":["Winter"],
+        "description":"Dystopian literature has increased in popularity in the last two decades, especially with young adults (e.g., Hunger Games, Divergent, Maze Runner). While these narratives flame the imagination of the youth with terrifyingand often realisticdepictions of society, their message is more complex, serving as a critique to social problems through the medium of fiction. Through numerous novels (and movies), students will explore dystopian worlds, examine their proposed social problems, and use this literary analysis to explore issues we face in contemporary society. There will be a service-learning component to this course."
+    }
+    
+    
+]
+},
+    {"requirement":"HUM",
+     "courses":[
       {
-        "classname" : "Humanities 110",
-        "availability" : "Fall",
-        "Hours" : 3
+        "id": "HUM 110",
+        "name": "Intro to Humanities-I",
+        "when": [
+          "Fall"
+        ],
+        "description": "A study of literature, philosophy, and the fine arts in classical Greek and Roman civilization with special attention given to ethical and aesthetic values. Emphasis is placed on writing, analysis, and discussion."
       },
       {
-        "classname" : "Humanities 120",
-        "availability" : "Spring",
-        "Hours" : 3
+        "id": "HUM 111",
+        "name": "Expository Writing/Humanities-I",
+        "when": [
+          "Fall"
+        ],
+        "description": "A variant of HUM 110 designed to provide additional instruction and practice in all forms of expository writing."
       }
     ]
   },
-  {
-    "RequirementName" : "Math",
-    "RequiredCredits" : 3,
-    "classes" : [
+    {"requirement":"HUM II",
+     "courses":[
       {
-        "classname" : "MAT110",
-        "availability" : "Fall",
-        "Hours" : "3"
-      },
-      {
-        "classname" : "MAT171",
-        "availability" : "Spring",
-        "Hours" : 3
+        "id": "HUM120",
+        "name": "Intro to Humanities-II",
+        "when": [
+          "Spring"
+        ],
+        "description": "A selected study of literature, music, and the fine arts from the medieval period onward, with special attention given to ethical and aesthetic values. Emphasis is placed on writing, analysis, and discussion."
       }
     ]
-  }
+  },
+    {"requirement":"Social Studies I",
+     "courses":[
+      {
+        "id": "HIS 110",
+        "name": "Development of Modern World-I",
+        "when": [
+          "Spring",
+          "Fall"
+        ],
+        "description": "A survey of the major Western and non-Western civilizations to the mid-19th century. Considerable attention is given to the factors that made each civilization distinctive and to the interaction of these civilizations over time. The expansion of the West and its rise to global prominence is an important focus of the course."
+      },
+      {
+        "id": "HIS 120",
+        "name": "Development of Modern World-II",
+        "when": [
+          "Spring",
+          "Fall"
+        ],
+        "description": "An examination of the most important issues and events from the mid-19th century to the present in a global context. Such issues as the origins and consequences of the world wars, the Great Depression, the emergence and collapse of the totalitarian orders, and the impact of Western colonization on the non-Western world are discussed."
+      },
+      {
+        "id": " HIS 240",
+        "name": "Development of United States-II",
+        "when": [
+          "Spring"
+        ],
+        "description": "A survey of the major trends, conflicts, and crises of a society characterized by growth and change from the Age of Discovery to the present. The internal and external aspects of the United States are examined in an effort to encourage a clearer perspective of our history in its global context."
+      },
+      {
+        "id": " HIS 230",
+        "name": "Development of United States-I",
+        "when": [
+          "Fall"
+        ],
+        "description": "A survey of the major trends, conflicts, and crises of a society characterized by growth and change from the Age of Discovery to the present. The internal and external aspects of the United States are examined in an effort to encourage a clearer perspective of our history in its global context."
+      }
+    ]
+  },
+    {"requirement":"Social Studies II",
+     "courses":[
+      {
+        "id": "ANT 110",
+        "name": "Introduction to Cultural Anthropology",
+        "when": [
+          "Fall",
+          "Spring"
+        ],
+        "description": "An introduction to the perspectives and methods of cultural anthropology. Topics covered include the nature of culture; the relation of culture to language; the importance of the environment for human societies; and a crosscultural examination of family structure, social organization, political and economic systems, religion, arts and folklore, and the impact of social and cultural change."
+      },
+      {
+        "id": "ANT 120",
+        "name": "Human Biological and Cultural Origins",
+        "when": [
+          "Fall",
+          "Spring"
+        ],
+        "description": "An introduction to major topics in physical anthropology and archaeology, including studies of human biological and cultural evolution, conflicting theories over the genetic and cultural bases of human behavior, history and methodology of archaeology, and on-going debates and new directions in these areas of anthropology."
+      },
+      {
+        "id": "ECO 110",
+        "name": "Introduction to Economics",
+        "when": [
+          "Fall",
+          "Spring"
+        ],
+        "description": "An introduction to economic theory with attention to the construction of simple economic models dealing with consumer behavior, production, pricing, distribution, monetary theory, and national income determination."
+      },
+      {
+        "id": "POL 120",
+        "name": "Introduction to Political Ideologies",
+        "when": [
+          "Fall",
+          "Spring"
+        ],
+        "description": "An introduction to the major political ideologies. Students learn the beliefs and history of such ideologies as conservatism, liberalism, socialism, libertarianism, environmentalism, etc. The foundations of these views are traced through classic political texts. The current versions of these ideologies are investigated by applying the ideologies to issues and politicians of today. Students learn the basic elements of today's political beliefs and values, and how these drive governments around the world."
+      },
+      {
+        "id": "POL 130",
+        "name": "Introduction to Comparative Politics",
+        "when": [
+          "Fall",
+          "Spring"
+        ],
+        "description": "This course introduces students to different elements of political systems around the world. Case studies of countries are used to study political, economic, social, ideological, and regional factors. Through an exploration of various manifestations of these factors, including authoritarianism, totalitarianism, democracy, theocracy, capitalism, communism, and secularism, this course employs the comparative method in an effort to make broad generalization and to uncover political, economic, and ideological patterns."
+      },
+      {
+        "id": "SOC 110",
+        "name": "Introduction to Sociology",
+        "when": [
+          "Fall",
+          "Spring"
+        ],
+        "description": "A survey of sociological concerns, including explorations of social solidarity and social conflict at the macro and micro levels, through classic texts and field research."
+      }
+    ]
+  },
+    {"requirement":"Science I",
+     "courses":[
+{
+    "id":"BIO 110",
+    "name":"Evolution, Biodiversity, Ecology",
+    "when":["Fall","Spring"],
+    "decription":"An introduction to biology through the integrating theme of evolution. The first third of the course introduces the unifying principles of evolution upon which all biological study is based. The second third is a phylogenetic survey of the biodiversity originating via those evolutionary processes. The course concludes with an exploration of the ecological processes that govern the organization of populations, communities and ecosystems. Laboratory work is required. Prerequisite: MAT 110 or basic skills in math."
+},
+{
+    "id":"NSC 120",
+    "name":"Natural Science II",
+    "when":["Fall"],
+    "description":"An integrated treatment of the major principles of the natural world. The course follows the evolution of life from the early Earth through complex social interactions and the position of humans in the world. Topics include the nature of life, cellular structure and function, the organizing principles of biological evolution, the unity and diversity of life, and the complex interactions between and among species, communities, and individuals. Laboratory work is required. Prerequisite: MAT 110 or basic skills in math. NSC 110 is not a prerequisite for NSC 120."
+},
+{
+    "id":"PSY 110",
+    "name":"Introduction to Psychology",
+    "when":["Fall","Spring"],
+    "description":"A comprehensive survey of the basic concepts involved in the study of behavior and applications of these principles. Laboratory work is required. Prerequisite: MAT 110 or basic skills in math."
+},
+{
+    "id":"BIO 210",    
+    "name": "Introduction to Biochemistry and Cell Biology",
+    "when":["Fall", "Spring"],
+    "description": "A study of the macromolecules and cellular processes which make life possible. Central topics in the course are the structure and function of biological macromolecules, the pathways of energy flow in the cell, and foundational topics in cell structure and function. Prerequisite: CHE 131 and 132 or CHE 135, CHE 241, BIO 210 (CHE 241and/or BIO 210 may be taken concurrently with BMB 210). Laboratory work is required. Note: Prospective BMB majors should complete BMB 210 by the end of their sophomore year. "
+}
 ]
-    
+},
+    {"requirement":"Science II",
+     "courses":[
+{
+    "id":"CHE 117",    
+    "name": "Chemistry and the Modern World",
+    "when":["Fall", "Spring"],
+    "description": "A chemistry course for the student who intends to take only one term of college chemistry. Basic chemical principles are studied with a view to understanding the role which chemistry plays in everyday life. Both the methods of science and its applications are discussed. Laboratory work is required. Note: Not open to students who have taken CHE 131. Prerequisite: MAT 110 or basic skills in math. "
+},
+{
+    "id":"CHE 131",    
+    "name": "General Chemistry-I",
+    "when":["Fall", "Spring"],
+    "description": "An introduction to modern ideas of atomic and molecular structure. Topics studied include stoichiometry, gas laws, electronic and nuclear structure of the atom, chemical bonding and molecular structure, and periodic properties of the elements. Laboratory work is required. Prerequisite: MAT 110 or basic skills in math."
+},
+{
+        "id": "CHE 135",
+        "name": "Accelerated General Chemistry",
+        "when": ["Fall"],
+        "description": "An accelerated coverage of general chemistry for students with strong high school chemistry preparation. Many topics, such as stoichiometry and gas laws, are only briefly reviewed. Topics treated in more detail include atomic and molecular theory, chemical bonding theories, kinetics, equilibrium processes, acids and bases, and chemical thermodynamics. Laboratory work is required. Students who complete CHE 135 may not register for CHE 131 or 132; students who complete CHE 131 or 132 may not register for CHE 135. "
+    },
+    {
+        "id": "NSC 110",
+        "name": "Natural Science-I",
+        "when": ["Fall","Spring"],
+        "description": "An integrated treatment of the major principles of the natural world. The course follows the development of the universe from its origin to the formation of early Earth. The course also explores the evolution of scientific thought from its origins through the scientific revolution to its prominent role in modern society. Topics include observational astronomy, mechanics, energy, light, thermodynamics, cosmology, and properties and behavior of matter from sub-microscopic composition to macroscopic geological phenomena. Laboratory work is required. Prerequisite: MAT 110 or basic skills in math. "
+    },
+    {
+        "id": "NSC 120",
+        "name": "Natural Science-II",
+        "when": ["Fall"],
+        "description": "An integrated treatment of the major principles of the natural world. The course follows the evolution of life from the early Earth through complex social interactions and the position of humans in the world. Topics include the nature of life, cellular structure and function, the organizing principles of biological evolution, the unity and diversity of life, and the complex interactions between and among species, communities, and individuals. Laboratory work is required. Prerequisite: MAT 110 or basic skills in math. NSC 110 is not a prerequisite for NSC 120. "
+    },
+    {
+        "id": "PHY 110",
+        "name": "Introduction to Physics",
+        "when": ["Fall","Spring"],
+        "description": "An introduction to college physics not requiring calculus. Topics discussed include mechanics, gravitation, planetary motion, electricity, the Bohr atom, and radioactivity. Laboratory work is required. Prerequisite: MAT 110 or basic skills in math. NOTE: Not open to students with credit for PHY 210 or higher. "
+    }
+]
+},
+    {"requirement":"Fundamental Questions I",
+     "courses":[
+    {
+        "id": "REL 110",
+        "name": "Biblical History and Ideas",
+        "when": ["Fall", "Spring"],
+        "description": "A study of the historical setting and development of the Israelite and early Christian communities, their literatures, and their thought, as reflected in the Hebrew Bible and New Testament."
+    },
+    {
+        "id": "REL 150",
+        "name": "Western Religious Traditions",
+        "when": ["Fall", "Spring"],
+        "description": "An introduction to the major religious traditions of the Western world. Focused attention is given to the historical interactions between Judaism, Christianity, and Islam, as well as their main thinkers, texts, beliefs, and practices. "
+    }
+   ]
+},
+    {"requirement":"Fundamental Questions II",
+     "courses":[
+        {
+        "id": "REL 110",
+        "name": "Biblical History and Ideas",
+        "when": ["Fall", "Spring"],
+        "description": "A study of the historical setting and development of the Israelite and early Christian communities, their literatures, and their thought, as reflected in the Hebrew Bible and New Testament."
+    },
+        {
+        "id": "REL 130",
+        "name": "Eastern Religious Traditions",
+        "when": ["Fall", "Spring"],
+        "description": "A survey of religious traditions of South and East Asia. Focus will be given to the beliefs, practices, historical interaction, and cultural significance of Buddhism, Hinduism, Jainism, Daoism, Confucianism, and other Asian religions."
+    },
+    {
+        "id": "REL 140",
+        "name": "Philosophy of Religion",
+        "when": ["Fall", "Spring"],
+        "description": "A critical examination of traditional and recent theories concerning such issues in the philosophy of religion as the existence of God, the nature of ultimate reality, the nature and destiny of human beings, and the validity of claims to religious knowledge. (Also listed as PHI 170) "
+    },
+        {
+        "id": "REL 150",
+        "name": "Western Religious Traditions",
+        "when": ["Fall", "Spring"],
+        "description": "An introduction to the major religious traditions of the Western world. Focused attention is given to the historical interactions between Judaism, Christianity, and Islam, as well as their main thinkers, texts, beliefs, and practices. "
+    },
+        {
+        "id":"REL 210",
+        "name": "Introduction to Judaism and Jewish Traditions",
+        "when":["Fall", "Spring"],
+        "description": "This course surveys the major practices, beliefs, and traditions of Judaism. Throughout, we will ask: what is Judaism? In an attempt to answer this deceptively simple question, students will examine how Jewish communities across history have shaped their practices and beliefs within their own specific historical circumstances. Further, students will explore how Jewish self-identity, textual traditions and religious practices combine to define Judaism. Students will interact with primary sources, including (but not limited to) the Hebrew Bible, the Talmud and the Zohar. "
+    },
+    {
+        "id":"REL 220",
+        "name": "Introudction to Christianity and Christian Traditions",
+        "when":["Fall", "Spring"],
+        "description": "An introductory study of Christion thought in relation to its intellectual and societal context from its beginnings in the Apostolic Period to the present day, with an emphasis on certain individuals and movements in the ancient church, the Middle Ages, the reformations of the 16th century, and the Enlightenment, and with an assessment of their contributions to the present positions of Christian thought"
+    },
+    {
+        "id":"REL 230",
+        "name": "Introduction to Islam and Islamic Traditions",
+        "when": ["Spring"],
+        "description": " A study of the major debates within and about Islam, and including a historical survey of Islamic beliefs, practices, and institutions. Special attention is focused on the life of Muhammad, the major divisions within Islam,  272 understanding modern Islamic movements, and issues that face Muslims in America today. "
+    },
+    {
+        "id": "REL 240",
+        "name": "Introduction to Hinduism and Hindu Traditions",
+        "when": ["Spring"],
+        "description": "Hinduism, with perhaps a billion followers and at least 3500 years of history, is one of the oldest and the third largest religion in the world. It is also one of the most spectacular and complex, with abundant and diverse architecture, philosophy, pilgrimage, ritual, social structure, personal practice, and law, to name a few, all meriting our consideration. In this course we will explore who Hindus are, what Hindus believe, and what Hindus do. "
+    },
+    {
+        "id": "REL 250",
+        "name": "Introduction to Budhism and Budist Traditions",
+        "when": ["Fall", "Spring"],
+        "description": "This course examines the 2500 year old religion known to us as Buddhism.' After its beginnings in India, Buddhism eventually spread to all of Asia, and profoundly influenced much of human history. In the last century, Buddhas, Buddhists, Buddhist terms, and Buddhist ideas have achieved a real prominence in the West- and have produced not a little confusion as well. In this course we will explore who Buddhists are, what Buddhists believe, and what Buddhists do. "
+    },
+    {
+        "id": "PHI 210",
+        "name": "Ancient Philosophy",
+        "when": ["Fall"],
+        "description": "A survey of ancient Western philosophy from the Pre-Socratics to Aristotle. This course concentrates on the origin and development of basic concepts and problems which have become permanent ingredients of our philosophical tradition. Some of these are reality and appearance, permanence and change, form and matter, causality, knowledge and belief, and the good. "
+    },
+    {
+        "id": "PHI 220",
+        "name": "17th- and 18th-Century Philosophers",
+        "when": ["Spring"],
+        "description": "he impact of the scientific revolution on accounts of the origin and limits of human knowledge, the mind-body relation, and the role of God in the universe. "
+    },
+        {
+        "id": "PHI 110",
+        "name": "Introduction to Philosophy",
+        "when": ["Fall","Spring"],
+        "description": "A course designed to acquaint students with the kinds of questions dealt with in various areas of philosophy and with the methods of philosophical reasoning. Topics include several of the following: free will and determinism, arguments for the existence of God, the justification of moral judgments, social justice, the relationship between the mental and the physical, and the grounds of human knowledge."
+    },
+    {
+        "id": "PHI 140",
+        "name": "An Introduction to Ethical Thinking",
+        "when": ["Spring"],
+        "description": "An introduction into how to develop ethical thinking into a properly philosophical and theoretical enterprise. By taking up such controversial topics as circumcision, cannibalism, vegetarianism, animal and human experimentation, abortion, the right to die, environmental ethics, genocide, and others, students will seek deeper understanding of the challenges of ethical problems and the ways in which philosophers try to solve them through the major ethical theories. Along with an understanding of the primary ethical theories, students will gain an appreciation for the everyday practicality of philosophy."
+    },
+    {
+        "id": "PHI 145",
+        "name": "Environmental Ethics",
+        "when": ["Fall","Spring"],
+        "description": "An examination of the ethics of our relationship to various components of the non-human world, including other animals and plants as well as ecosystems and the planet. Students debate questions such as whether or not nonhuman entities have moral status or rights, and what the implications are of such status for protection of other species, sustainability of our behaviors, and obligations to future generations."
+    },
+    {
+        "id": "PHI 160",
+        "name": "Philosophy of Art",
+        "when": ["Spring"],
+        "description": "An examination of philosophical problems arising in the description, interpretation, and evaluation of works of art. Topics include the nature of the art object and of aesthetic experience, the possibility of objective criticism in the arts, and the relation of aesthetic to moral values. Readings from classical and contemporary sources, with emphasis on case materials. Prerequisite: HUM 110 or 111."
+    },
+    {
+        "id":"PHI 170",
+        "name": "Philosophy of Religion",
+        "when":["Not Offered"],
+        "description": "A critical examination of traditional and recent theories concerning such issues in the philosophy of religion as the existence of God, the nature of ultimate reality, the nature and destiny of human beings, and the validity of claims to religious knowledge. (Also listed as REL 140.)"
+    }
+]
+}
+]
+

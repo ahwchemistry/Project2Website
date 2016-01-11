@@ -10,12 +10,11 @@ function insertclasses() {
 
         /* document.getElementById("Classtabs").innerHTML += "<ul>"; */
 
-        console.log(dataset[0].name);
-        console.log(dataset.length)
+        
 
         //Creating the list elements for each of the tabs.
         for (i = 0; i < dataset.length; i++) {
-            document.getElementById("classlist").innerHTML += "<li><a href=' #tab" + (i + 1) + "'>" + dataset[i]["RequirementName"] + "</a></li>"
+            document.getElementById("classlist").innerHTML += "<li><a href=' #tab" + (i + 1) + "'>" + dataset[i]["requirement"] + "</a></li>"
         }
 
         //Creating div's for each of the tabs.
@@ -28,7 +27,7 @@ function insertclasses() {
         for (j = 0; j < dataset.length; j++) {
             var currenttab = "#tab" + (j + 1)
 
-            console.log(currenttab);
+           
 
             $(currenttab).append(
 
@@ -42,33 +41,32 @@ function insertclasses() {
                 $(currentacc).accordion();
             });
         }
-        
-        
-        //Adding the information of each
-        
-        console.log("Dataset length" + dataset.length)
-        
-        
-        for(u=0; u<dataset.length; u++)
-            {
-                console.log("Going through the loop!")
-                
-                //For each class within each array within the json file.
-                for(l=0;l!=dataset[0]["classes"].length;l++)
-                    {
-                        console.log("Appending!")
-                        currentaccordion = "#Accordion" + (u)
-                        
-$(currentaccordion).append("<div><h3>"+dataset[0]['classes'][l].classname+"</h3><div>");
-                        
-$(currentaccordion).append("<div>"+dataset[0]['classes'][l].classname + "<div>");                        
 
-                        $(currentaccordion).accordion("refresh");
-                        
-                        
-                        
-                    }
+
+        //Adding the information of eachcourse to the correct accordion.
+
+        
+
+
+        for (u = 0; u < dataset.length; u++) {
+            
+
+            //For each class within each requirement within the json file.
+            for (l = 0; l != dataset[u]["courses"].length; l++) {
+                
+                
+                currentaccordion = "#Accordion" + (u+1)
+
+                $(currentaccordion).append("<div><h3>" + dataset[u]['courses'][l].name + "</h3><div>");
+
+                $(currentaccordion).append("<div>" + dataset[u]['courses'][l].description + "<div>");
+
+                $(currentaccordion).accordion("refresh");
+
+
+
             }
+        }
 
 
 
@@ -78,8 +76,8 @@ $(currentaccordion).append("<div>"+dataset[0]['classes'][l].classname + "<div>")
         });
 
         $("div#Tabs1").tabs("refresh");
-        
-        
+
+
 
     };
 
