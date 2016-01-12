@@ -19,9 +19,58 @@ function insertclasses() {
 
         //Creating div's for each of the tabs.
         for (n = 0; n < dataset.length; n++) {
-            document.getElementById("Tabs1").innerHTML += "<div id='tab" + (n + 1) + "'</div>"
+            document.getElementById("Tabs1").innerHTML += "<div id='tab" + (n + 1) + "'></div>"
+        }
+        
+        
+        for(q=0; q< dataset.length; q++)
+        {
+	       
+	        
+	        var currenttab = "#tab" + (q+1);
+	        
+	        for(y=0; y < dataset[q]['courses'].length ;y++)
+	        {
+		        
+		        
+		        currentid = dataset[q]['courses'][y].id;
+		        
+		        currentid = currentid.replace(/\s+/g, '');
+		        
+		        console.log(currentid);
+		        
+		        
+		        $(currenttab).append
+				(
+			     
+			        "<div id=" + (currentid+"container")   +  "> <div class='classbubble' + id='" + currentid + "'> <p>" + dataset[q]['courses'][y].id + "</p> </div>"
+			        
+		        );
+		        
+		        hit = "#" + currentid + "container"
+		        
+		        console.log(hit);
+		        
+		        console.log(dataset[q]['courses'][y].description);
+		        
+		        console.log("<p>" + dataset[q]['courses'][y].description + "</p>");
+		        
+		        $(hit).append()
+		        {
+			        "<p>" + dataset[q]['courses'][y].description + "</p>"
+		        };
+		        
+		      
+		        
+		        
+		        
+	        }
+	        
+	        
         }
 
+
+		/*
         //Adding accordions to the divs, containing the information.
 
         for (j = 0; j < dataset.length; j++) {
@@ -44,11 +93,8 @@ function insertclasses() {
 
 
         //Adding the information of eachcourse to the correct accordion.
-
-        
-
-
-        for (u = 0; u < dataset.length; u++) {
+        for (u = 0; u < dataset.length; u++) 
+        {
             
 
             //For each class within each requirement within the json file.
@@ -62,11 +108,13 @@ function insertclasses() {
                 $(currentaccordion).append("<div>" + dataset[u]['courses'][l].description + "<div>");
 
                 $(currentaccordion).accordion("refresh");
-
+                
 
 
             }
         }
+        */
+        
 
 
 
@@ -76,16 +124,22 @@ function insertclasses() {
         });
 
         $("div#Tabs1").tabs("refresh");
-
-
-
+		
+		
+		$(".classbubble").draggable({revert:"invalid"});
+		$(".droppable").droppable();
+		
+		
+		
+		
     };
 
 
     request.open("GET", "Classes.json", true);
     request.send();
 
-
-
-
 }
+
+
+
+

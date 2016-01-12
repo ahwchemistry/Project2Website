@@ -8,6 +8,8 @@
     
     
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="stylesheet" href="mystyle.css" type="text/css">
     
     
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
@@ -17,6 +19,9 @@
 <script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
 <script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js" type="text/javascript"></script>
 <script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
     
 <script src="functions.js"></script>    
     
@@ -25,11 +30,80 @@
 </head>
 
 <body>
-<div class="container">
+
+
+  <div class="container" style="float:left; width:66.6666%;">
   <div id="Tabs1">
     <ul id="classlist">
     </ul>
   </div>
 </div>
+
+
+<div class="yearcontainer">
+	<div id="inst" style="background-color: #b2b2b2; height:50px; border-style: solid; border-radius: 3%; text-align: center;"><p>Place your classes here!</p></div>
+
+
+  <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab">
+        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">Freshman Year</a></h4>
+      </div>
+      <div id="collapseOne1" class="panel-collapse collapse in">
+        <div class="panel-body droppable" class="droppable">Drop your classes here!</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">Sophomore Year</a></h4>
+      </div>
+      <div id="collapseTwo1" class="panel-collapse collapse">
+        <div class="panel-body droppable" class="droppable">Drop your classes here!</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">Junior Year</a></h4>
+      </div>
+      <div id="collapseThree1" class="panel-collapse collapse">
+        <div class="panel-body droppable" class="droppable">Drop your classes here!</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title" ><a data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">Senior Year</a></h4>
+      </div>
+      <div id="collapseFour1" class="panel-collapse collapse">
+        <div class="panel-body droppable" >Drop your classes here!</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<button>Hi</button>
+
+
+<script type="text/javascript">
+	$(".classbubble").click(function(){
+		
+	console.log("Help");
+	
+	$(this).addClass("activebubble");
+	
+	
+	
+	});
+	
+	document.ready(function(){
+	$(button).click(function(){
+		$(this).slideUp();
+	});
+	});
+	
+	
+</script>
+
+
+<script src="js/bootstrap.js" type="text/javascript"></script>
 </body>
 </html>

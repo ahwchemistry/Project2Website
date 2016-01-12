@@ -1,5 +1,50 @@
-.ui-widget-header{
-    background:black;
+.classbubble{
+	background: -webkit-linear-gradient(#05bef6 5.29%, #ffffff 100%);
+	height:100px;
+	width:100px;
+	font-size: smaller;
+	text-align: center;
+	vertical-align: middle;
+	line-height: inherit;
+	border-radius: 50%;
+	border-style: inset;
+}
+
+.classbubble p
+{
+	position: relative;
+	top:40%;
+}
+
+
+.yearcontainer{
+	width:30%;
+	float: right;
+	height:inherit;
+	background-color:#262626;
+    border-style:ridge;
+    margin-right: 20px;
+	
+	
+}
+
+
+.panel-body{
+	height:200px;
+
+
+}
+
+
+body{
     
-    
+    background-color:dimgrey;
+}
+
+#inst p{
+	
+	position: relative;
+	top:25%;
+	
+	
 }
