@@ -47,7 +47,7 @@ function insertclasses() {
 			        
 		        );
 		        
-		        hit = "#" + currentid + "container"
+		        hit = "#" + currentid + "container";
 		        
 		        console.log(hit);
 		        
@@ -56,6 +56,7 @@ function insertclasses() {
 		        console.log("<p>" + dataset[q]['courses'][y].description + "</p>");
 		        
 		        $(hit).append()
+		    
 		        {
 			        "<p>" + dataset[q]['courses'][y].description + "</p>"
 		        };
@@ -126,8 +127,37 @@ function insertclasses() {
         $("div#Tabs1").tabs("refresh");
 		
 		
-		$(".classbubble").draggable({revert:"invalid"});
-		$(".droppable").droppable();
+		$(".classbubble").draggable({
+			
+			
+			
+			revert:"invalid",
+			
+			
+
+			
+			
+			
+			
+			});
+		$(".droppable").droppable({
+			
+			 drop: function(event, ui) {
+			
+            $( "<li></li>" ).text( ui.draggable.text() ).appendTo( this );
+            $(ui.draggable).hide();
+            
+            id = ui.draggable.attr("id")
+            
+            console.log(id);
+            
+            $("#"+id).hide();
+            
+        	}
+			
+			
+			
+			});
 		
 		
 		

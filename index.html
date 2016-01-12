@@ -24,6 +24,7 @@
 
     
 <script src="functions.js"></script>    
+<script src="js/bootstrap.js" type="text/javascript"></script>
     
 <script>window.onload = insertclasses</script>
     
@@ -74,36 +75,31 @@
         <h4 class="panel-title" ><a data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">Senior Year</a></h4>
       </div>
       <div id="collapseFour1" class="panel-collapse collapse">
-        <div class="panel-body droppable" >Drop your classes here!</div>
+        <div class="panel-body droppable" >
+	        
+	        
+	        <p>Drop your classes here!</p>
+			
+        
+        
+        </div>
       </div>
     </div>
   </div>
 
 </div>
-<button>Hi</button>
 
 
-<script type="text/javascript">
-	$(".classbubble").click(function(){
+<script>
+	$("#test").click(function(){
 		
-	console.log("Help");
-	
-	$(this).addClass("activebubble");
-	
-	
-	
+		alert("Test");
+		
 	});
-	
-	document.ready(function(){
-	$(button).click(function(){
-		$(this).slideUp();
-	});
-	});
-	
 	
 </script>
 
 
-<script src="js/bootstrap.js" type="text/javascript"></script>
+
 </body>
 </html>
