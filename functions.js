@@ -39,27 +39,50 @@ function insertclasses() {
 		        
 		        console.log(currentid);
 		        
+		        currentparagraph= "#" + currentid + "para";
+		        
 		        
 		        $(currenttab).append
 				(
 			     
-			        "<div id=" + (currentid+"container")   +  "> <div class='classbubble' + id='" + currentid + "'> <p>" + dataset[q]['courses'][y].id + "</p> </div>"
+			        "<div id='" + (currentid+"container")   +  "' class='bubblecontainer " + currentid + "' targetname='" + currentid +"' > <div class='classbubble' assc='" + currentparagraph +  "' time='" + dataset[q]['courses'][y].when + "' id='" + currentid + "'> <p>" + dataset[q]['courses'][y].id + "</p> </div></div>"
 			        
 		        );
 		        
 		        hit = "#" + currentid + "container";
 		        
+		        
+		        
+		        
 		        console.log(hit);
 		        
 		        console.log(dataset[q]['courses'][y].description);
 		        
-		        console.log("<p>" + dataset[q]['courses'][y].description + "</p>");
+		        console.log("<p> " + dataset[q]['courses'][y].description + " </p>");
 		        
-		        $(hit).append()
+		        
+		        currentparagraph= "#" + currentid + "para";
+		        
+		        $(hit).append(
+			        
+			        "<p id='" + currentparagraph  + "'style='visibility:hidden '> " + dataset[q]['courses'][y].description + " </p>"
+			       
+			        
+		        );
+		        
+		        
+		        
+		        /*
+		        $("#"+currentid+"container").prepend()
 		    
 		        {
-			        "<p>" + dataset[q]['courses'][y].description + "</p>"
+			        "<p> " + dataset[q]['courses'][y].description + "</p>"
 		        };
+		        */
+		        
+		        
+		        
+		        
 		        
 		      
 		        
@@ -71,7 +94,7 @@ function insertclasses() {
         }
 
 
-		/*
+		/* Deprecated
         //Adding accordions to the divs, containing the information.
 
         for (j = 0; j < dataset.length; j++) {
@@ -134,6 +157,8 @@ function insertclasses() {
 			revert:"invalid",
 			
 			
+			
+			
 
 			
 			
@@ -144,14 +169,52 @@ function insertclasses() {
 			
 			 drop: function(event, ui) {
 			
-            $( "<li></li>" ).text( ui.draggable.text() ).appendTo( this );
+            $( "<li></li>" ).text( ui.draggable.text() + ": " + ui.draggable.attr("time") ).appendTo( this );
             $(ui.draggable).hide();
             
-            id = ui.draggable.attr("id")
+            classname = ui.draggable.parent().attr("targetname");
             
-            console.log(id);
             
-            $("#"+id).hide();
+            
+            
+            
+            $("."+classname).hide();
+            
+            target = $(this).attr("id");
+            
+            targetname = "#" + target
+            
+            localStorage.setItem(target, "");
+            
+            console.log(localStorage.getItem("blah"));
+            
+            if((localStorage).getItem(target) == "")
+            {
+	            console.log("Hello!")
+	            
+	            console.log($(targetname).html());
+	          
+	            currentarray = [$(targetname).html()];
+	            
+				console.log(currentarray);
+	            
+	            jsonfile = JSON.stringify(currentarray);
+	            
+	            console.log(jsonfile);
+	           
+	            localStorage.setItem(target, jsonfile);
+	        }
+	        
+	        console.log(localStorage.getItem(target));
+            
+            getitem = localStorage.getItem(target)
+            
+            text = JSON.parse(getitem);
+            
+            console.log(text);
+            
+            
+            
             
         	}
 			

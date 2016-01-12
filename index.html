@@ -51,7 +51,7 @@
         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">Freshman Year</a></h4>
       </div>
       <div id="collapseOne1" class="panel-collapse collapse in">
-        <div class="panel-body droppable" class="droppable">Drop your classes here!</div>
+        <div id="freshman" class="panel-body droppable" class="droppable">Drop your classes here!</div>
       </div>
     </div>
     <div class="panel panel-default">
@@ -59,7 +59,7 @@
         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">Sophomore Year</a></h4>
       </div>
       <div id="collapseTwo1" class="panel-collapse collapse">
-        <div class="panel-body droppable" class="droppable">Drop your classes here!</div>
+        <div id="sophomore" class="panel-body droppable" class="droppable">Drop your classes here!</div>
       </div>
     </div>
     <div class="panel panel-default">
@@ -67,7 +67,7 @@
         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">Junior Year</a></h4>
       </div>
       <div id="collapseThree1" class="panel-collapse collapse">
-        <div class="panel-body droppable" class="droppable">Drop your classes here!</div>
+        <div id="junior" class="panel-body droppable" class="droppable">Drop your classes here!</div>
       </div>
     </div>
     <div class="panel panel-default">
@@ -75,7 +75,7 @@
         <h4 class="panel-title" ><a data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">Senior Year</a></h4>
       </div>
       <div id="collapseFour1" class="panel-collapse collapse">
-        <div class="panel-body droppable" >
+        <div id="senior" class="panel-body droppable" >
 	        
 	        
 	        <p>Drop your classes here!</p>
@@ -87,6 +87,8 @@
     </div>
   </div>
 
+  <button> Reset</button>
+
 </div>
 
 
@@ -94,6 +96,12 @@
 	$("#test").click(function(){
 		
 		alert("Test");
+		
+	});
+	
+	$(".bubblecontainer").hover(function()
+	{
+		this.addClass(shown)
 		
 	});
 	
