@@ -9,92 +9,86 @@ function insertclasses() {
         var dataset = JSON.parse(string);
 
         /* document.getElementById("Classtabs").innerHTML += "<ul>"; */
-
         
+        
+
+
 
         //Creating the list elements for each of the tabs.
         for (i = 0; i < dataset.length; i++) {
-            document.getElementById("classlist").innerHTML += "<li><a href=' #tab" + (i + 1) + "'>" + dataset[i]["requirement"] + "</a></li>"
+            document.getElementById("classlist").innerHTML += "<li id='tabhead" + (i + 1) + "'><a href=' #tab" + (i + 1) + "'>" + dataset[i]["requirement"] + "</a></li>"
         }
 
         //Creating div's for each of the tabs.
         for (n = 0; n < dataset.length; n++) {
             document.getElementById("Tabs1").innerHTML += "<div id='tab" + (n + 1) + "'></div>"
         }
-        
-        
-        for(q=0; q< dataset.length; q++)
-        {
-	       
-	        
-	        var currenttab = "#tab" + (q+1);
-	        
-	        for(y=0; y < dataset[q]['courses'].length ;y++)
-	        {
-		        
-		        
-		        currentid = dataset[q]['courses'][y].id;
-		        
-		        currentid = currentid.replace(/\s+/g, '');
-		        
-		        console.log(currentid);
-		        
-		        currentparagraph= "#" + currentid + "para";
-		        
-		        
-		        $(currenttab).append
-				(
-			     
-			        "<div id='" + (currentid+"container")   +  "' class='bubblecontainer " + currentid + "' targetname='" + currentid +"' > <div class='classbubble' assc='" + currentparagraph +  "' time='" + dataset[q]['courses'][y].when + "' id='" + currentid + "'> <p>" + dataset[q]['courses'][y].id + "</p> </div></div>"
-			        
-		        );
-		        
-		        hit = "#" + currentid + "container";
-		        
-		        
-		        
-		        
-		        console.log(hit);
-		        
-		        console.log(dataset[q]['courses'][y].description);
-		        
-		        console.log("<p> " + dataset[q]['courses'][y].description + " </p>");
-		        
-		        
-		        currentparagraph= "#" + currentid + "para";
-		        
-		        $(hit).append(
-			        
-			        "<p id='" + currentparagraph  + "'style='visibility:hidden '> " + dataset[q]['courses'][y].description + " </p>"
-			       
-			        
-		        );
-		        
-		        
-		        
-		        /*
+
+        //Creating a div for each class in every single requirement tab.
+        for (q = 0; q < dataset.length; q++) {
+
+
+            var currenttab = "#tab" + (q + 1);
+
+            for (y = 0; y < dataset[q]['courses'].length; y++) {
+
+
+                currentid = dataset[q]['courses'][y].id;
+
+                currentid = currentid.replace(/\s+/g, '');
+                /*
+                console.log(currentid);
+                */
+                currentparagraph = currentid + "para";
+
+
+                $(currenttab).append(
+
+                    "<div id='" + (currentid + "container") + "' class='bubblecontainer " + currentid + "' targetname='" + currentid + "' assc='" +currentparagraph+ "' > <div class='classbubble' assc='" + currentparagraph + "' time='" + dataset[q]['courses'][y].when + "' id='" + currentid + "bubble" + "' tabheader='tabhead" + (q+1) + "' currenttab='" + currenttab + "' > <p>" + dataset[q]['courses'][y].id + "</p> </div></div>"
+
+                );
+
+                hit = "#" + currentid + "container";
+
+
+
+                /*
+                console.log(hit);
+
+                console.log(dataset[q]['courses'][y].description);
+
+                console.log("<p> " + dataset[q]['courses'][y].description + " </p>");
+                */
+
+                currentparagraph = currentid + "para";
+
+                $(hit).append(
+
+                    "<p id='" + currentparagraph + "'style='display:none ' class='description'> " + dataset[q]['courses'][y].description + " </p>"
+
+
+                );
+
+
+
+                /*
 		        $("#"+currentid+"container").prepend()
 		    
 		        {
 			        "<p> " + dataset[q]['courses'][y].description + "</p>"
 		        };
 		        */
-		        
-		        
-		        
-		        
-		        
-		      
-		        
-		        
-		        
-	        }
-	        
-	        
+
+
+
+
+            }
+
+
         }
 
 
-		/* Deprecated
+        /* Deprecated
         //Adding accordions to the divs, containing the information.
 
         for (j = 0; j < dataset.length; j++) {
@@ -138,7 +132,7 @@ function insertclasses() {
             }
         }
         */
-        
+
 
 
 
@@ -148,83 +142,128 @@ function insertclasses() {
         });
 
         $("div#Tabs1").tabs("refresh");
-		
-		
-		$(".classbubble").draggable({
-			
-			
-			
-			revert:"invalid",
-			
-			
-			
-			
-
-			
-			
-			
-			
-			});
-		$(".droppable").droppable({
-			
-			 drop: function(event, ui) {
-			
-            $( "<li></li>" ).text( ui.draggable.text() + ": " + ui.draggable.attr("time") ).appendTo( this );
-            $(ui.draggable).hide();
-            
-            classname = ui.draggable.parent().attr("targetname");
-            
-            
-            
-            
-            
-            $("."+classname).hide();
-            
-            target = $(this).attr("id");
-            
-            targetname = "#" + target
-            
-            localStorage.setItem(target, "");
-            
-            console.log(localStorage.getItem("blah"));
-            
-            if((localStorage).getItem(target) == "")
-            {
-	            console.log("Hello!")
-	            
-	            console.log($(targetname).html());
-	          
-	            currentarray = [$(targetname).html()];
-	            
-				console.log(currentarray);
-	            
-	            jsonfile = JSON.stringify(currentarray);
-	            
-	            console.log(jsonfile);
-	           
-	            localStorage.setItem(target, jsonfile);
-	        }
+        
+        
+        //Handler for the descriptions to drop down on click. Tried hover to no avail.
+        $('.bubblecontainer').on("click",function(){
 	        
-	        console.log(localStorage.getItem(target));
-            
-            getitem = localStorage.getItem(target)
-            
-            text = JSON.parse(getitem);
-            
-            console.log(text);
-            
+	        target = "#" + $(this).attr("assc");
+	        
+	        
+	        /*
+	        console.log(target);
+	        */
             
             
+	        $(target).slideDown("slow");
+	
+	        
+	        
+        });
+    
+        
+
+
+        $(".classbubble").draggable({
+
+
+
+            revert: "invalid",
+
+
+
+
+        });
+        $(".droppable").droppable({
+
+            drop: function(event, ui) {
+
+                $("<li></li>").text(ui.draggable.text() + ": " + ui.draggable.attr("time")).appendTo(this);
+                $(ui.draggable).hide();
+
+                classname = ui.draggable.parent().attr("targetname");
+
+                tabheadname = ui.draggable.attr("tabheader");
+
+                tabname = ui.draggable.attr("currenttab");
+                
+                /*
+                console.log(tabname);
+                console.log(tabheadname);
+                */
+                
+
+                $("#" + tabheadname).hide();
+                
+                
+                $(tabname).hide();
+
+
+
+                $("." + classname).hide();
+
+                target = $(this).attr("id");
+
+                targetname = "#" + target
+                
+                
+                addCourse((ui.draggable.attr("id")),ui.draggable.attr("time"),ui.draggable.attr("currenttab"),$(this).attr("id"));
+
+
+
+				/*
+                localStorage.setItem(target, "");
+
+                console.log(localStorage.getItem("blah"));
+
+                if ((localStorage).getItem(target) == "") {
+                    console.log("Hello!")
+
+                    console.log($(targetname).html());
+
+                    currentarray = [$(targetname).html()];
+
+                    console.log(currentarray);
+
+                    jsonfile = JSON.stringify(currentarray);
+
+                    console.log(jsonfile);
+
+                    localStorage.setItem(target, jsonfile);
+                }
+
+                console.log(localStorage.getItem(target));
+
+                getitem = localStorage.getItem(target)
+
+                text = JSON.parse(getitem);
+
+                console.log(text);
+                */
+
+
+
+
+            }
+
+
+
+        });
+        
+        
+        console.log(localStorage.length);
+        loadCourses();
+        
+        $("#resetcourses").on("click", function()
+        {
+            localStorage.clear();
             
-        	}
-			
-			
-			
-			});
-		
-		
-		
-		
+            console.log("Local Storage Items: " + localStorage.length())
+        })
+
+
+
+
     };
 
 
@@ -233,6 +272,65 @@ function insertclasses() {
 
 }
 
+function addCourse(courseid, time, tab, year)
+{
+    
+    courseid = courseid.replace('bubble','')
+    
+    console.log(courseid);
+    
+    
+    coursejson = '{"courseid":"' + courseid + '" , "time":"' + time + '" , "tab":" ' + tab + '" , "year":"' + year + '" }'
+  
+    jsontext = JSON.parse(coursejson);
+    
+    console.log(jsontext.courseid);
+    
+    localStorage.setItem(courseid, coursejson);
+    
+    console.log("Length is" + localStorage.length);
+    
+    
+  
+}
 
-
+function loadCourses()
+{
+    for(i=0; i< localStorage.length; i++)
+        {
+            console.log("Key is " + localStorage.key(i));
+            
+            currentjson = localStorage.getItem(localStorage.key(i));
+            
+            currentjson = JSON.parse(currentjson);
+            
+            console.log(currentjson.courseid);
+            
+            if(currentjson.courseid != undefined)
+                {
+                    targetyear = "#" + currentjson.year;
+                    
+                    courselisting = "<li>" + currentjson.courseid + " : " + currentjson.time +"</li>"
+                    
+                    $(targetyear).append(courselisting);
+                    
+                    $("#" + currentjson.courseid+ "bubble").hide();
+                    
+                    $(currentjson.tab).hide();
+                    
+                    tabname = (currentjson.tab).replace('#tab',"")
+                    
+                    tabname = tabname.replace(/\s/g, '');
+                    
+                    tabname = "#tabhead" + tabname;
+                    
+                    console.log(tabname);
+                    
+                    $(tabname).hide();
+                 
+                    
+                }
+            
+        }
+}
 

@@ -60,3 +60,10 @@ body{
 	visibility: visible;
 	
 }
+
+
+.description{
+	background-color:#4f4f4f;
+	color:white;
+	border-style: inset;
+}

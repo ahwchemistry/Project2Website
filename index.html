@@ -16,7 +16,8 @@
 <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
-<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+<!-- <script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script> -->
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js" type="text/javascript"></script>
 <script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js" type="text/javascript"></script>
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
@@ -36,7 +37,23 @@
   <div class="container" style="float:left; width:66.6666%;">
   <div id="Tabs1">
     <ul id="classlist">
+	    
+	    <li id='tabhead0'><a href='#tab0'> Information </a></li>
+	    
+	    
     </ul>
+    <div id='tab0'>
+      <div class="jumbotron">
+        <h3>Welcome to the General Education Requirements Selector
+          
+        </h3>
+        <p>Each tab will list all the available courses to take to fufill each requirement. Click on the bubbles to learn more about each class!</p>
+        
+      </div>
+    </div>
+    
+    
+    
   </div>
 </div>
 
@@ -87,10 +104,9 @@
     </div>
   </div>
 
-  <button> Reset</button>
+  <button id="resetcourses"> Reset Classes </button>
 
 </div>
-
 
 <script>
 	$("#test").click(function(){
