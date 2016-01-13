@@ -1,3 +1,8 @@
+//Coded by Alexander Williams unless otherwise stated.
+
+
+var Count;
+
 function insertclasses() {
     var request = new XMLHttpRequest();
 
@@ -155,7 +160,7 @@ function insertclasses() {
 	        */
             
             
-	        $(target).slideDown("slow");
+	        $(target).slideToggle("slow");
 	
 	        
 	        
@@ -186,6 +191,20 @@ function insertclasses() {
                 tabheadname = ui.draggable.attr("tabheader");
 
                 tabname = ui.draggable.attr("currenttab");
+                
+        currentpercentage = $("#bar").attr("aria-valuenow");
+                
+                currentpercentage = parseFloat(currentpercentage);
+                
+                currentpercentage = currentpercentage + ((1/9)*100);
+                
+                
+                
+$("#bar").css("width", currentpercentage + "%");
+                
+$("#bar").attr("aria-valuenow",currentpercentage)
+                
+                
                 
                 /*
                 console.log(tabname);
@@ -258,7 +277,9 @@ function insertclasses() {
         {
             localStorage.clear();
             
-            console.log("Local Storage Items: " + localStorage.length())
+           //Coded by Boting.
+             window.location.reload(true);
+            //End
         })
 
 
@@ -288,7 +309,14 @@ function addCourse(courseid, time, tab, year)
     
     localStorage.setItem(courseid, coursejson);
     
-    console.log("Length is" + localStorage.length);
+    //Coded by Boting Li
+    Count = localStorage.length;
+    
+    if(Count >= 9)
+        {
+            alert("Congrats! You have fufilled your General Requirements!");
+        }
+    //End
     
     
   
@@ -313,6 +341,16 @@ function loadCourses()
                     courselisting = "<li>" + currentjson.courseid + " : " + currentjson.time +"</li>"
                     
                     $(targetyear).append(courselisting);
+                    
+                    currentpercentage = $("#bar").attr("aria-valuenow");
+                
+                    currentpercentage = parseFloat(currentpercentage);
+                
+                    currentpercentage = currentpercentage + ((1/9)*100);
+                
+                    $("#bar").css("width", currentpercentage + "%");
+                
+                    $("#bar").attr("aria-valuenow",currentpercentage)
                     
                     $("#" + currentjson.courseid+ "bubble").hide();
                     

@@ -1,4 +1,8 @@
 <!doctype html>
+
+<!-- Coded in entirety by Alexander Williams -->
+
+
 <html>
 <head>
 <meta charset="UTF-8">
@@ -35,6 +39,12 @@
 
 
   <div class="container" style="float:left; width:66.6666%;">
+      
+      <div class="progress">
+      <div id="bar" class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow= 0 style="width:0%"> </div>
+      </div>
+      
+      
   <div id="Tabs1">
     <ul id="classlist">
 	    
@@ -68,7 +78,7 @@
         <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">Freshman Year</a></h4>
       </div>
       <div id="collapseOne1" class="panel-collapse collapse in">
-        <div id="freshman" class="panel-body droppable" class="droppable">Drop your classes here!</div>
+        <div id="freshman" class="panel-body droppable" class="droppable">Drag and Drop your classes here!</div>
       </div>
     </div>
     <div class="panel panel-default">
@@ -103,10 +113,12 @@
       </div>
     </div>
   </div>
-
-  <button id="resetcourses"> Reset Classes </button>
-
+    
+    <button id="resetcourses">Click me and refresh to reset!</button>
+    
 </div>
+    
+
 
 <script>
 	$("#test").click(function(){

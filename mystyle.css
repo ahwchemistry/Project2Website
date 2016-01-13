@@ -1,5 +1,5 @@
 .classbubble{
-	background: -webkit-linear-gradient(#05bef6 5.29%, #ffffff 100%);
+	background: -webkit-linear-gradient(#05bef6 10.29%, #ffffff 100%);
 	height:100px;
 	width:100px;
 	font-size: smaller;
@@ -12,8 +12,18 @@
 
 .classbubble p
 {
-	position: relative;
-	top:40%;
+    font-family: Helvetica;
+    display: block;
+    color: black;
+    padding-top: 35px;
+    
+    text-decoration: none;
+    font-size: 120%;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	line-height: inherit;
 }
 
 
